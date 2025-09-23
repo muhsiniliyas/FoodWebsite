@@ -125,7 +125,7 @@ const FoodDetailModal = ({ food, isOpen, onClose }) => {
 
             <button
               onClick={handleAddToCart}
-              className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-xl font-semibold flex items-center space-x-2 transition-colors duration-200 transform hover:scale-105"
+              className="bg-primary-500 hover:bg-primary-600 dark:text-white px-6 py-3 rounded-xl font-semibold flex items-center space-x-2 transition-colors duration-200 transform hover:scale-105"
             >
               <ShoppingCart className="w-5 h-5" />
               <span>Add ₹{(food.price * quantity).toFixed(2)}</span>
