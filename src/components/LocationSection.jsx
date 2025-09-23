@@ -5,7 +5,7 @@ import { Phone, Mail, Clock, Navigation, Car, Bike } from 'lucide-react';
 const LocationSection = () => {
   // Single location data
   const location = {
-    name: 'FoodieExpress ',
+    name: 'FoodStorm ',
     address: '123 Food Street, Tamil Nadu District',
     city: 'Chennai,',
     phone: '+91 7395944311',
