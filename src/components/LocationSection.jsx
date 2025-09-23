@@ -105,34 +105,34 @@ const LocationSection = () => {
                 <div className="flex items-start space-x-3">
                   <span className="text-xl mt-1">🏢</span>
                   <div>
-                    <p className="font-medium text-white">{location.address}</p>
+                    <p className="font-medium dark:text-white">{location.address}</p>
                     <p className="text-gray-100">{location.city}</p>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Phone className="w-5 h-5 flex-shrink-0 text-white" />
+                  <Phone className="w-5 h-5 flex-shrink-0 dark:text-white" />
                   <a 
                     href={`tel:${location.phone}`}
-                    className="text-white hover:text-yellow-200 transition-colors duration-200"
+                    className="dark:text-white hover:text-yellow-200 transition-colors duration-200"
                   >
                     {location.phone}
                   </a>
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Mail className="w-5 h-5 flex-shrink-0 text-white" />
+                  <Mail className="w-5 h-5 flex-shrink-0 dark:text-white" />
                   <a 
                     href={`mailto:${location.email}`}
-                    className="text-white hover:text-yellow-200 transition-colors duration-200"
+                    className="dark:text-white hover:text-yellow-200 transition-colors duration-200"
                   >
                     {location.email}
                   </a>
                 </div>
 
                 <div className="flex items-start space-x-3">
-                  <Clock className="w-5 h-5 mt-1 flex-shrink-0 text-white" />
-                  <div className="text-white">
+                  <Clock className="w-5 h-5 mt-1 flex-shrink-0 dark:text-white" />
+                  <div className="dark:text-white">
                     <p><strong>Monday - Friday:</strong> {location.hours.weekdays}</p>
                     <p><strong>Saturday - Sunday:</strong> {location.hours.weekends}</p>
                   </div>
@@ -222,7 +222,7 @@ const LocationSection = () => {
             </p>
             <button
               onClick={() => document.getElementById('menu').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-primary-500 hover:bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              className="bg-primary-500 hover:bg-primary-600 dark:text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
               View Our Menu
             </button>
