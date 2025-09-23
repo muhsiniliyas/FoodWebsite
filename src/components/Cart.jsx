@@ -79,7 +79,7 @@ const Cart = () => {
                       setIsOpen(false);
                       document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
                     }}
-                    className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg transition-colors duration-200"
+                    className="bg-primary-500 hover:bg-primary-600 dark:text-white px-6 py-2 rounded-lg transition-colors duration-200"
                   >
                     Browse Menu
                   </button>
