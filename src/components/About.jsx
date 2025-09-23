@@ -39,7 +39,7 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            About FoodieExpress
+            About FoodStorm
             <span className="bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent">
               {" "}
             </span>
@@ -73,7 +73,7 @@ const About = () => {
               Our Story
             </h3>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Founded in 2020 during the challenging times of the pandemic, FoodieExpress was born out of a simple yet powerful idea: to bring people together through food, even when we had to stay apart.
+              Founded in 2020 during the challenging times of the pandemic, FoodStorm was born out of a simple yet powerful idea: to bring people together through food, even when we had to stay apart.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
               What started as a small local delivery service has grown into a thriving platform that connects thousands of customers with their favorite restaurants. We've built more than just a delivery service - we've created a community that celebrates the joy of good food.
