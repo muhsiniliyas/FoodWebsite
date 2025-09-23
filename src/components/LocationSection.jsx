@@ -92,7 +92,7 @@ const LocationSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Location Info */}
-            <div className="bg-gradient-to-r from-primary-500 to-primary-600 p-8 rounded-2xl text-white shadow-lg">
+            <div className="bg-gradient-to-r from-primary-500 to-primary-600 p-8 rounded-2xl dark:text-white shadow-lg">
               <h3 className="text-2xl font-bold mb-6 flex items-center space-x-2">
                 <span>📍</span>
                 <span>{location.name}</span>
