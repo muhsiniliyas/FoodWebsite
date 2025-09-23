@@ -39,7 +39,7 @@ const Header = ({ onAuthClick }) => {
                   onClick={() => scrollToSection('home')}
                   className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4"
                 >
-                  FoodieExpress
+                  FoodStorm
                 </button>
               </div>
             </div>
