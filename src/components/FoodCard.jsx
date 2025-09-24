@@ -40,12 +40,7 @@ const FoodCard = ({ food, onViewDetails }) => {
         </div>
 
         {/* Add to Cart Button */}
-        <button
-          onClick={handleAddToCart}
-          className="absolute bottom-4 right-4 bg-primary-500 hover:bg-primary-600 text-white p-3 rounded-full shadow-lg transform hover:scale-110 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
-        >
-          <Plus className="w-5 h-5" />
-        </button>
+        
       </div>
 
       {/* Content Section */}
