@@ -150,7 +150,7 @@ const FoodDetailModal = ({ food, isOpen, onClose }) => {
               {/* Add to Cart Button - Mobile Optimized */}
               <button
                 onClick={handleAddToCart}
-                className="w-full bg-primary-500 hover:bg-primary-600 text-white py-3 px-4 rounded-xl font-semibold flex items-center justify-center space-x-2 transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+                className="w-full bg-primary-500 hover:bg-primary-600 dark:text-white py-3 px-4 rounded-xl font-semibold flex items-center justify-center space-x-2 transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
               >
                 <ShoppingCart className="w-5 h-5 flex-shrink-0" />
                 
