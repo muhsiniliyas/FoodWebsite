@@ -65,3 +65,14 @@ button, a {
     background: linear-gradient(135deg, #2D3748 0%, #1A202C 100%);
   }
 }
+/* Add to your src/index.css for xs breakpoint */
+@media (min-width: 375px) {
+  .xs\:inline {
+    display: inline;
+  }
+  
+  .xs\:hidden {
+    display: none;
+  }
+}
+
